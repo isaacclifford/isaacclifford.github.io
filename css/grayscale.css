@@ -39,7 +39,7 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+  color: #0267a1;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -219,11 +219,14 @@ a:focus {
   }
 }
 .content-section {
-  padding-top: 100px;
+  padding-top: 10px;
+  height: 15%
+  padding-bottom: 25px
 }
+
 .download-section {
   width: 100%;
-  padding: 50px 0;
+  padding: 25px 0;
   color: white;
   background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
   background-color: black;
@@ -242,7 +245,7 @@ a:focus {
     padding-top: 250px;
   }
   .download-section {
-    padding: 100px 0;
+    padding: 150px 0;
   }
   #map {
     height: 400px;
@@ -259,16 +262,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #0267a1;
+  color: #0267a1;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #0267a1;
   outline: none;
   color: black;
-  background-color: #42DCA3;
+  background-color: #0267a1;
 }
 ul.banner-social-buttons {
   margin-top: 0;
