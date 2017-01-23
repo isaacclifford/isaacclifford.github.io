@@ -26,6 +26,12 @@ h6 {
   font-weight: 700;
   letter-spacing: 1px;
 }
+p-about-me{
+  margin: 0 0 25px;
+  font-size: 16px; 
+  line-hight:1.5;
+}
+
 p {
   margin: 0 0 25px;
   font-size: 18px;
@@ -38,12 +44,13 @@ p {
     line-height: 1.6;
   }
 }
-a {
-  color: #0267a1;
+a{
+  color: white;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+
 a:hover,
 a:focus {
   text-decoration: none;
@@ -218,10 +225,43 @@ a:focus {
     transform: scale(1);
   }
 }
+
 .content-section {
-  padding-top: 10px;
-  height: 15%
-  padding-bottom: 25px
+  padding-top: 200px;
+  padding-bottom:200px;
+}
+
+.about-me-section{
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+  background: url(../img/about-me-3.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center; 
+  -o-background-size: cover;
+}
+
+
+.athletics-section{
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: url(../img/about_me2.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: left top; 
+  -o-background-size: cover;
+
+}
+
+.text-keep-left{
+  margin-left: 50px;
 }
 
 .download-section {
