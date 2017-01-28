@@ -1,0 +1,255 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+.topnav {
+    font-size: 14px; 
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/experience-2.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: top;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-b {
+    width: 100%; 
+    height: 50%;
+    background-color: #f8f8f8;
+    color: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    
+}
+
+.content-section-a {
+    width: 100%; 
+    height: 50%;
+    border-top: 2px solid #e7e7e7;
+}
+
+.content-section-d {
+    padding-top: 0px;
+    width: 100%; 
+    height: 33.3333%;
+    background-color: #f8f8f8;
+    color: black;
+    border-top: 2px solid black;
+}
+
+.content-section-c {
+    width: 100%; 
+    height: 33.3333%;
+    border-top: 2px solid #f8f8f8;
+}
+
+.content-section-e {
+    width: 100%; 
+    height: 33.3333%;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.content-section-f {
+    width: 100%; 
+    height: 100%;
+    background-color: #f8f8f8;
+    color: black;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.content-section-height{
+    height: 94%; 
+}
+
+.content-section-height-half{
+    height: 50%; 
+}
+
+.logo-default{
+    max-width:100%;
+    max-height:100%;
+    background-image: url('img/orbcomm-logo.jpg');
+    background-size: auto auto;
+}
+
+.orb-color{
+    color:#F31527;
+}
+
+.ev-color{
+    color: #FEF101;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    object-fit: cover;
+    overflow: hidden;
+    max-width:100%;
+    object-fit: contain; 
+}
+.fill img {
+    flex-shrink: 0;
+    object-fit: contain;
+    overflow: hidden;
+
+    
+}
+
+@media screen and (max-width: 600px) { 
+.fill img { display: none; }  
+}
+
+  .col-lg-5_1 {
+    height: 100%;
+    width: 41.66666667%;
+  }
+.row-1{
+    height: 100%; 
+}
+
+.section-heading {
+    margin-bottom: 10px;
+}
+
+.section-heading-spacer-black {
+    float: left;
+    width: 200px;
+    border-top: 3px solid black;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: center;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
