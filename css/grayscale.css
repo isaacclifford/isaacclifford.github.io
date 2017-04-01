@@ -28,7 +28,7 @@ h6 {
 }
 p-about-me{
   margin: 0 0 25px;
-  font-size: 16px; 
+  font-size: 18px; 
   line-height:1.5;
 }
 
@@ -231,20 +231,6 @@ a:focus {
   padding-bottom:200px;
 }
 
-.about-me-section{
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  color: white;
-  background: url(../img/about-me-5.jpg) no-repeat bottom center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  background-position: center; 
-  -o-background-size: cover;
-}
-
 
 .experience-section{
   width: 100%;
@@ -289,12 +275,6 @@ a:focus {
   -o-background-size: cover;
 }
 
-.contact-section {
- width: 100%; 
- height: 100%;
-
-}
-
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
@@ -335,8 +315,8 @@ a:focus {
 }
 
 .btn-experience{
-  border: 1px solid #0267a1;
-  color: #0267a1;
+  border: 1px solid #ffffff;
+  color: #ffffff;
   background-color: transparent;
 
 }

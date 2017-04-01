@@ -9,18 +9,22 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>iSyght</title>
+    <title>iSyght Experience</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/landing-page.css" rel="stylesheet">
+    
 
     <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- Theme CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,14 +37,14 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <!-- Navigation -->
+   <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
+                <a class="navbar-brand page-scroll" href="index.html #page-top">
                      <span>
                         <h4 class="main-name">Isaac Sy </h4> 
                      <span>
@@ -54,17 +58,16 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#about-me">About</a>
+                    <li> <a class="page-scroll" href="#about-me"> About </a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#experience">Experience</a>
+                        <a class="page-scroll" href="#internships">Internships</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#athletics">Interests</a>
+                        <a class="page-scroll" href="#projects">Projects</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#school">School</a>
                     </li>
                 </ul>
             </div>
@@ -73,7 +76,7 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Intro Header -->
+<!-- Intro Header -->
     <header class="intro">
         <div class="intro-body">
             <div class="container">
@@ -82,102 +85,250 @@
                         <h1 class="brand-heading">Isaac Sy</h1>
                         <p class="intro-text"> Aspiring Computer Engineer
                             <br> </p>
-                        <a href="#about-me" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+                        <hr class="intro-divider">
+                        <p><a href="mailto:isaaccliffordsy@gmail.com?Subject=Hello%20Isaac"><i class="fa fa-envelope fa-fw"></i> <span class="email-name">isaaccliffordsy@gmail.com</span></a>
+                        </p>
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="https://github.com/isaacclifford" class="btn btn-experience btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-experience btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about-me" class="about-me-section content-section text-centerr">
+
+     <!-- About Section -->
+    <section id="about-me" class="about-me-section content-section-height-about">
         <div class="row">
+            <section id="about-me" class=" content-section-about-height text-center">
             <div class="col-lg-8 col-lg-offset-2">
-                <div class="container text-center">
+                <div class="container text-center ">
                     <h1><br> About Me</h1>
-                    <p-about-me>My name is Isaac Sy</p-about-me>
-                    <p-about-me>I am currently pursuing a degree in computer engineering at the
-                        <br>  University Of Waterloo. 
-                        <br> 
+                    <p-about-me>My name is Isaac Sy.</p-about-me><br>
+                    <p-about-me>I am currently pursuing an undergraduate degree in Computer Engineering with Co-op 
+at the University Of Waterloo. I am a determined person that always strives to excel in whatever I do. 
+<br><br>
+Over the past 2 years, I have gained valuable work expereience being a co-op student in
+multiple technology companies.
+I have also worked on side-projects that allowed me to use the theoretical knowledge I learn in school and apply it,
+both in software and in hardware. <br><br>
+Please scroll down to see more details about my experiences and qualifications.
                     </p-about-me>
                 </div>
             </div>
+            </section>
         </div>
     </section>
 
-<!-- Experience Section -->
-    <section id="experience" class=" experience-section content-section">
-           <div class="container pull-left">
-                <div class="row">
-                    <div class="col-lg-8 text-left text-keep-left">
-                        <h1>Experience</h1>
-                        <p> Outside of the classroom, I participate in 
-                            <br> both competitive and recreational sports.
-                        </p> 
-                        <p>~ <a href="http://www.varsity.uwaterloo.ca/roster.aspx?rp_id=4982&path=msquash" class="sport">Varsity Squash </a></p>
-                        <p> ~ Volleyball 
-                            <br> ~ Snowboarding
-                            <br> ~ Long Distance Running
-                        </p>
-                         <a href="academic.html" class="btn btn-experience btn-lg">See More <i class="fa fa-arrow-right fa-fw"></i> </a>
-                    </div>
+    <!-- Internships -->
+	<section id="internships" class="content-section-height">
+        <div class="internship-title">
+            <h1> Internships </h1>
+        </div>    
+        <div class="container content-section-a">
+            <div class="row row-1">
+                <div class="col-lg-7 col-lg-push-0 col-md-push-0 col-md-8 col-sm-push-0  col-sm-9">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h3 class="section-heading">Software Design Engineer</h3>
+                    <h6> <a href="" class="ev-color"> Evertz Microsystems </a> | January 2017 - Present </h6>
+                    <p class="lead">
+                                     <b>Language:</b> Python </br>
+                                     <b>Workflow:</b> Git </br>
+                                     <b>Major Term Projects:</b> Aiding in the updated design of a non-linear video editing tool
+                    </p>
+                    <p class="lead"> As a current co-op at Evertz Microsystem, I am am helping ugrade a NLE software tool similiar to 
+                                     programs like Adobe Premiere Pro and Final Cut Pro. I am also in charge of designing scripts to test 
+                                     and find bugs in a video replay system used wolrd wide in the sports broadcasting industry. 
+                                     </p>
+                        
+                </div>
+                <div class="col-lg-5 col-lg-pull-0 col-md-4 col-md-pull-0 col-sm-pull-0 col-sm-3 hidden-xs row-1">
+                    <img class="fill row-1" src="img/evertz-logo.png" alt="">
                 </div>
             </div>
+        </div>
+        <!-- /.container -->    
+
+    <!-- /.content-section-a -->
+
+        <div class="container content-section-b">
+            <div class="row row-1">
+                <div class="col-lg-7 col-lg-push-5 col-md-push-4 col-md-8 col-sm-push-3  col-sm-9">
+                    <hr class="section-heading-spacer-black">
+                    <div class="clearfix"></div>
+                    <h3 class="section-heading">Junior Firmware Engineer Co-op </h3> 
+                    <h6> <a href="https://www.orbcomm.com/" class="orb-color"> Orbcomm </a> | May 2016 - September 2016</h6> 
+                    <p class="lead"> 
+                                     <b>Language:</b> Lua, C, Python </br>
+                                     <b>Workflow:</b> SVN, Software Development Cycle </br>
+                                     <b>Major Term Projects:</b> Refactoring, debugging and documenting firmware of a satellite 
+                                     communication device.    </p>
+                    <p class="lead"> During my term in Orbcomm, I was assigned to update existing code and documentation for the software architecture of an embedded system. 
+                                     I worked with various 3rd party APIs and ensured that the Lua code for the company products were up to date with the various APIs.  
+                                     In addition, I designed various internal tools in the form of lua scripts and GUI applications that use the HTTP protocol to 
+                                     retrieve data</p>
+                </div>
+                <div class="col-lg-5 col-lg-pull-7 col-md-4 col-md-pull-8 col-sm-pull-9 col-sm-3 hidden-xs row-1">
+                    <img class="fill row-1" src="img/orbcomm-logo-3.png" alt="">
+                </div>
+
+            </div>
+        <!-- /.container -->
+        </div>
     </section>
 
+    
+    <!-- /.content-section-b -->
+    <section id="projects" class="content-section-height">
+        <div class="internship-title">
+             <h1> Projects </h1>  
+        </div>
 
-    <!-- Athletics Section -->
-    <section id="athletics" class=" athletics-section content-section">
-           <div class="container pull-left">
-                <div class="row">
-                    <div class="col-lg-8 text-left text-keep-left">
-                        <h1>Interests</h1>
-                        <p> Photography.  
-                            <br> Film making.
-                        </p> 
-                        <p> <a href="http://www.varsity.uwaterloo.ca/roster.aspx?rp_id=4982&path=msquash" class="sport">Varsity Squash </a></p>
-                        <p>    
-                            <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-experience btn-lg">See More <i class="fa fa-arrow-right fa-fw"></i> </a>
-                        </p>
-                    </div>
+        <div class="container content-section-c">
+            <div class="row-1">
+                <div class="col-lg-7 col-md-8 col-sm-8">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h4 class="section-heading">Computer Vision Project</h4>
+                    <h6> <a href="https://github.com/isaacclifford/ServerAnalysis" class="link-colr"> Github </a>| TBA</h6> 
+
+                    <p class="lead">In progress.</p>
+                </div>
+                    <div class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-0 col-sm-push-1 col-sm-3 hidden-xs row-1">
+                    <img class="fill row-1" src="img/evertz-logo.png" alt="">
                 </div>
             </div>
+        </div>
+
+        <div class=" container content-section-d">
+            <div class="row-1">
+                <div class="col-lg-7 col-lg-push-5 col-sm-push-4  col-sm-8">
+                    <hr class="section-heading-spacer-black">
+                    <div class="clearfix"></div>
+                    <h4 class="section-heading">Server Speed Test</h4>
+                    <h6> <a href="https://github.com/isaacclifford/ServerAnalysis" class="link-colr"> Github </a>| August 2016</h6> 
+                    <p class="lead">This is a Lua event driven GUI application that compares multiple HTTP server speeds using web socket protocol. 
+                        Users are able to choose three different HTTP servers to gather and compare speed data from.</p>
+                </div>
+                <div class="col-lg-4 col-lg-pull-7 col-md-4 col-md-pull-8 col-sm-pull-8 col-sm-3 hidden-xs row-1">
+                    <img class="fill-2 row-1" src="img/server-proj.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container content-section-e">
+            <div class="row-1">
+                <div class="col-lg-7 col-md-8 col-sm-8">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h4 class="section-heading">Website or Another more impressive one</h4>
+                    <h6> <a href="https://github.com/isaacclifford/ServerAnalysis" class="link-colr"> Github </a>| August 2016</h6>
+                    <p class="lead">I'm not sure what I want to put here yet.</p>
+                </div>
+                <div class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-0 col-sm-push-1 col-sm-3 hidden-xs row-1">
+                    <img class="fill row-1" src="img/evertz-logo.png" alt="">
+                </div>
+            </div>
+        </div>   
+
+
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section container content-section text-center">
+        <!-- /.container -->
+
+    <!-- /.content-section-a -->
+
+    <section id="school" class="content-section-school-height">
+        <div class="container content-section-f">
+            <div class="row-1 school-message">
+                <h1 class= "section-heading row-2 school-text">University Of Waterloo</h1>
+            </div>
+        </div>
+
+        <div class="container content-section-g">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h3 class="section-heading">Academics</h3>
+                    <p class="lead"> 
+                        As a second-year student, I have had the opportunity to learn and apply my knowledge 
+                        in the topics of software, embedded systems, circuitry and mathematics. Though I have 
+                        spent time  
+                        The following are the list of classes I have taken in university thus far:
+                    </p>    
+                    <p class="lead">
+                        <b> Computer Software Classes: </b>
+                        <br> Algorithms and Data Structures: <i class="class-description"> C++, Running Time Optimizations, Graph Theory, Sorting, Trees, Dynamic Programming.  </i>
+                        <br> Engineering Design with Embedded Systems:  <i class="class-description"> Java, Android Development. </i>
+                    </p>
+                    <p class="lead">
+                        <b> Computer Hardware Classes: </b>
+                        <br> Digital Computers: <i class='class-description'> ARM Assembly, Computer Organization, Memory Heiarchy, I/O Operations. </i>
+                        <br> Digital Circuits and Systems: <i class="class-description"> FPGA Programming, Combinational Circuits, Sequential Circuits, Timing Analysis. </i>
+                        <br> Electronic Circuits 1: <i class="class-description"> Basic Signal Processing, MOSFETs, BJTs, Op Amps.  </i>
+                    </p>
+
+                    <p class="lead"> As the classes become more career specific, I hope to focus on a path towards software and firmware architecture. 
+                        I hope to take classes that will expand my knowledge in these topics and, more specifically, 
+                        topics I am have extreme interests in like video processing, image processing, satellite communications or global positioning systems. 
+                    </p>
+
+
+                    </p>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                     <hr class="section-heading-spacer">
+                     <div class="clearfix"></div>
+                     <h3 class="section-heading">Waterloo Satellite Design Team</h3>
+
+                     <p class="lead"> <b>The mission:</b> Send a cube satellite into space to map Arctic ice depletion using GNSS reflectometry </p>
+                     <p class="lead">  
+                         I am a current member of the command and data handling sub-team. I created the initial schematic and PCB board level design of the commander 
+                         board by modifying an existing design to meet size and functionality requirements. 
+                         The task included:
+                             <ul class="a">
+                             <li>Learning how to use Altium Circuit Maker </li> 
+                             <li>Adding and removing components on the schematic </li>
+                             <li>Rearranging and remapping components wires on the PCB design </li>
+                             <li>Reshaping and resizing the PCB shape</li>
+                             </ul>
+                                                                                                                                                               </p>
+                </div>
+                <!--<div class="col-lg-2 col-lg-offset-5 col-sm-3 hidden-xs row-1">
+                    <img class="fill row-1" src="img/watsat-photo.png" alt="">
+                </div> -->
+            </div>
+        </div>   
+    
+    </section>
+
+	
+
+    </div>
+    <!-- /.banner -->
+
+        <!-- Contact Section -->
+    <section id="contact" class="contact-section-bottom container text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Me</h2>
-                <p></p>
-                <p><a href="mailto:isaaccliffordsy@gmail.com?Subject=Hello%20Isaac"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">isaaccliffordsy@gmail.com</span></a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://github.com/isaacclifford" class="btn btn-default btn-lg email"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/isaac-sy-89b00b112/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
-                    </li>
-                </ul>
-            </div>
+                <i class="fa fa-envelope fa-fw"></i> <span class="email-name">isaaccliffordsy@gmail.com</span>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <small>Copyright &copy; ISyght2016</small>
-        </div>
-    </footer>
+
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
