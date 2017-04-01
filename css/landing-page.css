@@ -109,11 +109,16 @@ html {
 }
 
 .email-name{
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     letter-spacing: 2px;
 }
 
+.insta-name{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
 .internship-title{
     background-color: #f8f8f8; 
     color: black;
