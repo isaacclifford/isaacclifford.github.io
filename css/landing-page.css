@@ -224,7 +224,6 @@ ul.a {
     background-color: #f8f8f8;
     color: black;
     border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
 }
 
 .content-section-height{
@@ -240,7 +239,9 @@ ul.a {
 }
 .content-section-school-height{
     height: auto; 
-    min-height: 700px !important; 
+    min-height: 100% !important; 
+    min-width: 600px !important;
+    background-color: white;
 }
 
 .content-section-about-all{
@@ -362,6 +363,10 @@ ul.a {
 
 .row-3{
     height: 31.3333%;
+}
+
+.row-about{
+    height: 100%;
 }
 
 .school-text{
