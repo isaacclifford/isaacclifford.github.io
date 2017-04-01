@@ -149,7 +149,7 @@ html {
 
 .content-section-f {
     width: 100%; 
-    height: 30%;
+    height: 250px;
     color: black;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
@@ -162,6 +162,10 @@ html {
     background-position: bottom right; 
     -o-background-size: cover;
 
+}
+
+ul.a {
+    list-style-type: circle;
 }
 
 .school-text{
@@ -188,15 +192,25 @@ html {
 }
 
 .content-section-height{
-    height: 100%; 
+    height:  100%;
     min-height: 800px !important;
     min-width: 600px !important;
 }
+
+.content-section-school-height{
+    height: auto; 
+    min-height: 600px !important; 
+}
+
 
 .content-section-height-half{
     height: 50%; 
 }
 
+.link-colr{
+    color: #003387;
+    font-size: 12px; 
+}
 
 
 .satellite-team{
@@ -239,7 +253,32 @@ html {
     object-fit: contain;
     overflow: hidden;
 
-    
+}
+.fill-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: middle;
+    overflow: hidden;
+    max-width:100%;
+    object-fit: scale-down;
+    padding-top: 5px; 
+    padding-bottom: 5px;  
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.fill img{
+    flex-shrink: 0; 
+    object-fit: contain; 
+    overflow: hidden;
+    object-position: middle; 
+}
+
+.class-description{
+    font-size: 14px; 
 }
 
 .academic-title{
@@ -267,6 +306,10 @@ html {
     align-items: flex-end;
     height: 100%;
     color: white; 
+}
+
+.row-3{
+    height: 31.3333%;
 }
 
 .school-text{
