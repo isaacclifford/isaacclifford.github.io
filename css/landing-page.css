@@ -8,10 +8,11 @@
 
 .about-me-section{
   text-align: center;
-  height: 100%;
+  height: auto;
+  min-height: 100% !important;
   width: 100%;
   color: white;
-  background: url(../img/about-me-5.jpg) no-repeat bottom center scroll;
+  background: url(../img/about-me-4.jpg) no-repeat bottom center scroll;
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -250,10 +251,10 @@ ul.a {
 }
 
 .content-section-about-height{
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 200px;
     height: auto; 
-    min-height: 700px !important; 
+    min-height: 100% !important; 
 }
 
 .content-section-height-half{
