@@ -4,7 +4,9 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-
+.color-black{
+    color: black;
+}
 
 .about-me-section{
   text-align: center;
